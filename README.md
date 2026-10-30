@@ -1,6 +1,6 @@
 # Accurate and Useless: Jev in a multi-agent coding pipeline
 
-Data and code for the article [*Accurate and Useless: What 5,300 Calls to a Small Judge Model Taught Us*](ARTICLE.md).
+Data and code for the article *Accurate and Useless: What 5,300 Calls to a Small Judge Model Taught Us*. Read it on [Medium](https://medium.com/@oleksandrtranchenko/accurate-and-useless-what-5-300-calls-to-a-small-judge-model-taught-us-93314cf2a99e) or [DEV](https://dev.to/sashua/accurate-and-useless-what-5300-calls-to-a-small-judge-model-taught-us-1i92); [`ARTICLE.md`](ARTICLE.md) has the same text.
 
 In October 2026 we integrated [Jev](https://typesafe.ai), a small judgment model from TypeSafe, into our Plugin, a multi-agent build pipeline for Claude Code. The goal was to save agent tokens without making results worse. We tried and measured three integration patterns: automatic advisory checks, an on-demand tool for agents, and binding gates. This repository holds the article, its figures, and the anonymized data behind every number in it.
 
